@@ -31,5 +31,22 @@ dogs.reverse!
 dogs.pop
 x = dogs.length
 
-puts "My dogs are #{dogs}.  I have #{x} dogs."
-puts "My dogs in reverse are #{dogs.reverse}"
+# puts "My dogs are #{dogs}.  I have #{x} dogs."
+# puts "My dogs in reverse are #{dogs.reverse}"
+
+scores = [100, 80, 75, 93]
+# counter = 0
+sum = 0
+
+# while counter < scores.length
+#   sum += scores[counter]
+#   counter += 1
+# end
+
+# scores.each do |score|
+#   sum += score
+# end
+
+scores.each { |score| sum += score }
+
+puts "The sum of #{scores} is #{sum}."
