@@ -22,8 +22,6 @@ until new_name == "Done" do
   end
 end
 
-# I'm making a change to test out git.
-
 puts "\n"
 puts 'Thank you for those ' + count.to_s + ' names.'
 puts "\n"
