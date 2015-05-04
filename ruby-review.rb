@@ -5,20 +5,22 @@
 # argument and then displays it into the following concatenated string.
 # "Hello (name).  Nice to meet you."
 
-puts "What is your name?"
-user_name = gets.chomp
+# puts "What is your name?"
+# user_name = gets.chomp
 
-puts "Hello #{user_name}.  Nice to meet ya!"
+# puts "Hello #{user_name}.  Nice to meet ya!"
 
-def greeting name
-  puts "This is the greeting inside a method, #{name}!"
-end
+# def greeting name
+#   puts "This is the greeting inside a method, #{name}!"
+# end
 
-greeting(user_name)
-greeting("Taco")
+# greeting(user_name)
+# greeting("Taco")
 
 # 2
 # Correct the code below so it displays the sum of x, y, and z
-def sum_numbers(x,y)
+def sum_numbers(x,y,z)
   x+y+z
 end
+puts sum_numbers(1,2,3)
+
